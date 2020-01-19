@@ -1,0 +1,24 @@
+li{
+	height: 40px;
+	line-height: 40px;
+	color: #726f6f;
+
+}
+li:nth-child(2n){
+	background: #fff;
+}
+span{
+	background: #cc3939;
+	color: #fff;
+	width: 0;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+	opacity: 0;
+	transition: linear 0.3s;
+}
+li:hover span{
+	width: 40px;
+	opacity: 1;
+}
